@@ -1,18 +1,18 @@
 import "./Socials.css";
 export default function Socials({ socials, socialIcons, socialLinks }) {
-  console.log(socialLinks.LinkedIn);
+  console.log(typeof socials[0]);
   return (
     <div className="Socials">
       <div className="SocialIcon">
         {socialIcons.map((socialIcon) => {
           return (
-            <a
-              href="#"
-              style={{ textDecoration: "none", color: "black" }}
+            <span
+            //   style={{ textDecoration: "none", color: "black" }}
               key={socialIcon}
+              target="_blank"
             >
               <i className={socialIcon}></i>
-            </a>
+            </span>
           );
         })}
       </div>
@@ -20,13 +20,15 @@ export default function Socials({ socials, socialIcons, socialLinks }) {
         {socials.map((social) => {
           return (
             <a
-              href={socialLinks.social}
+            //   href={socialLinks.social}
+                href={socialLinks.LinkedIn}
               style={{ textDecoration: "none", color: "black" }}
               key={social}
+              target="_blank"
             >
               {social}
             </a>
-          );
+          ); 
         })}
       </div>
     </div>

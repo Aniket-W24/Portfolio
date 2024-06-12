@@ -4,8 +4,8 @@
     font-size: 4rem;
     display: flex;
     text-align: center;
-    /* background-image: url("/mainBackground.jpeg"); */
-    /* background-color: #939494; */
+    /* background-image: url("/codingBg.jpg"); */
+    background-color: #939494;
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -37,3 +37,6 @@
     /* text-shadow: 1px 1px 5px #f4c357; */
     text-shadow: 0 0 1px black;
 }
+
+
+

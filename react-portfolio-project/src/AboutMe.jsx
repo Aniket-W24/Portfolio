@@ -5,6 +5,8 @@ export default function AboutMe() {
   let [bgColor, setBgColor] = useState("white");
   let [color, setColor] = useState("black");
 
+  let pStyles = {opacity: "1", backgroundColor: "#535353", color: "white", transform: "skew(-10deg)", height: "fit-content", width: "600px", marginLeft: "5px"}
+
   let btnClick = () => {
     const newBgColor = bgColor === "white" ? "black" : "white";
     const newColor = color === "black" ? "#FAF9F6" : "black";
@@ -15,7 +17,7 @@ export default function AboutMe() {
   };
   return (
     <div className="AboutMe" style={{ backgroundColor:  bgColor, color: color  }}>
-      <p>
+      <p >
         I am a passionate <b>Full-Stack Developer</b> dedicated to solving
         complex problems.
         <br></br>
@@ -23,12 +25,12 @@ export default function AboutMe() {
         work with <b>Hard</b> work.
       </p>
       {/* <img src="/Subject.png"></img> */}
-      <button
+      {/* <button
         onClick={btnClick}
         style={{ backgroundColor: bgColor, border: "none" }}
-      >
-        <img src="/lampImage.png"></img>
-      </button>
+      > */}
+        <img onClick={btnClick} src="/lampImg.png"></img>
+      {/* </button> */}
     </div>
   );
 }
