@@ -1,0 +1,39 @@
+.AboutMe {
+    animation: glowImg 2s ease-in-out 0.2s 1; 
+    margin: 1rem;
+    font-size: 4rem;
+    display: flex;
+    text-align: center;
+    /* background-image: url("/mainBackground.jpeg"); */
+    /* background-color: #939494; */
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+@keyframes glowImg {
+    from {
+        opacity: 0;
+        scale: 0.5;
+        transform: translate(100%);
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+        transform: translate(0);
+    }
+}
+
+.AboutMe img {
+    animation: glowImg 1.5s ease-in-out 0.2s 1; 
+    width: 400px;
+    height: 80vh;
+}
+
+.AboutMe img:hover {
+    scale: 1.1;
+}
+
+.AboutMe:hover {
+    /* text-shadow: 1px 1px 5px #f4c357; */
+    text-shadow: 0 0 1px black;
+}

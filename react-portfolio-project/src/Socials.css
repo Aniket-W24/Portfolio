@@ -1,0 +1,21 @@
+.Socials {
+    height: fit-content;
+    margin: 2rem;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.SocialName, .SocialIcon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+/* .SocialName a {
+    text-decoration: none;
+}
+
+.SocialIcon a {
+    text-decoration: none;
+} */
