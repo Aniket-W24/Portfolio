@@ -1,0 +1,29 @@
+.ContactForm {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 10rem;
+    justify-content: center;
+    font-size: 1.3rem;
+    /* background-color: black;
+    color: white; */
+}
+
+.ContactForm input {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+
+.ContactForm textarea{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.ContactForm button {
+    background-color: black;
+    color: white;
+    height: 3rem;
+    width: 6rem;
+    font-size: 1.5rem;
+    align-self: center;
+}

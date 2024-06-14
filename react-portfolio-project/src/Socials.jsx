@@ -22,7 +22,7 @@ export default function Socials({ socials, socialIcons, socialLinks }) {
             <a
             //   href={socialLinks.social}
                 href={socialLinks.LinkedIn}
-              style={{ textDecoration: "none", color: "black" }}
+              style={{ textDecoration: "none", color: "white" }}
               key={social}
               target="_blank"
             >

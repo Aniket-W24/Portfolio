@@ -1,5 +1,6 @@
 import Heading from "./Heading";
 import Socials from "./Socials";
+import ContactForm from "./ContactForm";
 export default function Contact() {
   let socials = ["Gmail", "LinkedIn", "Github", "LeetCode"];
   let socialIcons = [
@@ -25,6 +26,7 @@ export default function Contact() {
           socialLinks={socialLinks}
         />
       </div>
+      <ContactForm />
     </div>
   );
 }

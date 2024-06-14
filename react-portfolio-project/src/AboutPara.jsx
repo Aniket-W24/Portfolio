@@ -1,5 +1,6 @@
 export default function AboutPara(){
-    let styles = {margin: "2rem", fontSize: "2rem", backgroundColor: "aliceBlue",
+    let styles = {margin: "2rem", fontSize: "2rem", backgroundColor: "rgb(255, 255, 255, 0)",
+        color: "white",
         borderRadius: "2rem", height: "fit-content", padding: "0.5rem"
     }
     return (
