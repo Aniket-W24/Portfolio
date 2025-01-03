@@ -16,9 +16,9 @@ export default function Portfolio(){
           <AboutMe />
           <div className="other-components">
          
+      <Work />
       <Skills />
       <Education />
-      <Work />
       <About />
       <Contact />
             </div>

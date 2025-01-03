@@ -18,12 +18,13 @@ export default function AboutMe() {
 
   // style={{ backgroundColor:  bgColor, color: color  }}
   return (
-      <p className="AboutMe">
-        I am a passionate <b>Full-Stack Developer</b> dedicated to solving
-        complex problems.
-        <br></br>
-        <br></br>I firmly <b>Believe</b> in the power of combining <b>Smart</b>
-        work with <b>Hard</b> work.
+    <div style={{display: 'flex', padding: "2rem"}}>
+      <p className="AboutMe" >
+      I am a passionate <b>Full-Stack Developer</b> dedicated to solving complex problems with innovative solutions. I believe in the power of <b>Smart</b> work combined with <b>Hard</b> work to create high-quality, scalable applications.
       </p>
+      <div>
+        <img src="manWithCoffee.svg" style={{height: '30rem', width: '30rem'}}></img>
+      </div>
+    </div>
   );
 }

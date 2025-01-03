@@ -3,15 +3,18 @@
     margin: 2rem;
     border-radius: 2rem;
     padding: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
 }
 
-.SocialName, .SocialIcon {
+/* .SocialName, .SocialIcon {
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 2rem;
-}
+} */
 
 /* .SocialName a {
     text-decoration: none;

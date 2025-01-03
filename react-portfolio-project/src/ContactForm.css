@@ -11,12 +11,14 @@
 .ContactForm input {
     font-size: 1rem;
     padding: 0.5rem;
+    background-color: whitesmoke;
 }
 
 
 .ContactForm textarea{
     font-size: 1rem;
     padding: 0.5rem;
+    background-color: whitesmoke;
 }
 
 .ContactForm button {

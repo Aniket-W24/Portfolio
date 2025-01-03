@@ -12,7 +12,7 @@
 }
 
 .EducationCard {
-    border: 1px solid black;
+    border: 1px solid rgba(255,255,255,0.3);
     background-color: rgba(255, 255, 255, 0);
     
     height: 25rem;
@@ -51,7 +51,10 @@
 
 
 .Card-body {
-    color: white;
+    color: whitesmoke;
     padding: 1rem 1rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    word-spacing: 0.15rem;
+    line-height: 1.7rem;
+    /* letter-spacing: 0.05rem; */
 }
